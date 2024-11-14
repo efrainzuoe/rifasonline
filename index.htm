@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifa en Línea</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Encabezado -->
+<header>
+    <div class="container">
+        <h1>Rifa en Línea</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#comprar">Comprar Boletos</a></li>
+                <li><a href="#resultados">Resultados</a></li>
+                <li><a href="#reglamento">Reglamento</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Sección de Introducción -->
+<section id="inicio" class="intro">
+    <div class="container">
+        <h2>¿Cómo Funciona?</h2>
+        <p>Compra tus boletos para participar en nuestra rifa y gana premios increíbles.</p>
+        <p>Fecha del sorteo: <strong>15 de diciembre de 2024</strong></p>
+        <p>Premios: Televisor, tablet, y más.</p>
+    </div>
+</section>
+
+<!-- Sección de Compra de Boletos -->
+<section id="comprar" class="buy-tickets">
+    <div class="container">
+        <h2>Compra Boletos</h2>
+        <form id="form-compra">
+            <label for="boletos">Cantidad de boletos:</label>
+            <input type="number" id="boletos" name="boletos" min="1" max="10" required>
+            <button type="submit">Comprar Ahora</button>
+        </form>
+    </div>
+</section>
+
+<!-- Sección de Resultados -->
+<section id="resultados" class="results">
+    <div class="container">
+        <h2>Resultados de la Rifa</h2>
+        <button id="verGanadores">Ver Resultados</button>
+        <div id="ganadores"></div>
+    </div>
+</section>
+
+<!-- Sección de Reglamento -->
+<section id="reglamento" class="reglamento">
+    <div class="container">
+        <h2>Reglamento</h2>
+        <p>Lee el reglamento completo de la rifa aquí.</p>
+    </div>
+</section>
+
+<!-- Pie de página -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Rifa en Línea. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
